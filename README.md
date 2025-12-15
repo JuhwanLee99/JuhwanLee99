@@ -17,21 +17,25 @@
   <tr>
     <td width="33%" valign="top">
       <b>Mac</b><br/>
-      MacBook Air (M3, 24GB)<br/>
-      macOS 15.7.2 (arm64)<br/>
-      2560×1440 + 1710×1107
+      MacBook Air<br/>
+      Apple M3<br/>
+      24GB RAM<br/>
+      macOS 15.7.2 (arm64)
     </td>
     <td width="33%" valign="top">
       <b>Windows</b><br/>
-      Ryzen 5 9600X · RTX 4070 SUPER<br/>
       Windows 11 23H2<br/>
-      2560×1440 @144Hz
+      AMD Ryzen 5 9600X<br/>
+      NVIDIA RTX 4070 SUPER<br/>
+      32GB RAM
     </td>
     <td width="33%" valign="top">
       <b>NAS</b><br/>
       TrueNAS SCALE (planned)<br/>
-      i5-11500 · UHD 750 (Quick Sync)<br/>
-      2.5GbE · 16GB RAM
+      Intel Core i5-11500<br/>
+      Intel UHD 750 (Quick Sync)<br/>
+      16GB RAM<br/>
+      2.5GbE
     </td>
   </tr>
 </table>
