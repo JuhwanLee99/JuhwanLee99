@@ -33,5 +33,46 @@
 ```
 
 ## Windows
+```text
+llllllllllllllll   llllllllllllllll         jimmy@LEE-JH
+llllllllllllllll   llllllllllllllll         --------------
+llllllllllllllll   llllllllllllllll         OS: Windows 11
+llllllllllllllll   llllllllllllllll         Build: 23H2 (22631)
+llllllllllllllll   llllllllllllllll         Uptime: 4 days, 1 hour, 33 minutes
+llllllllllllllll   llllllllllllllll         Resolution: 2560x1440 @144Hz
+llllllllllllllll   llllllllllllllll         Terminal: Windows PowerShell
+llllllllllllllll   llllllllllllllll         CPU: AMD Ryzen 5 9600X 6-Core Processor
+llllllllllllllll   llllllllllllllll         GPU: NVIDIA GeForce RTX 4070 SUPER
+                                            Memory: 9889 MB / 31849 MB (31% in use)
+llllllllllllllll   llllllllllllllll         Disk: C:\ 1952.69 GB (1037.32 GB free)
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll        
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll        
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
+```
 
 ## Comming Soon
+```text
+        ~~~\      /~~~          nas@truenas.local
+     ~~~~~~~\____/~~~~~~~       ----------------------------------
+   ~~~~~~~~  ____  ~~~~~~~~     OS: TrueNAS SCALE (Debian-based)
+  ~~~~~~~   / __ \   ~~~~~~~    Host: DIY NAS (Custom Build)
+ ~~~~~~~   / /  \ \   ~~~~~~    Kernel: (TBD)
+ ~~~~~~   | | /\ | |   ~~~~~    Uptime: (TBD)
+ ~~~~~~   | |/__\| |   ~~~~~    Shell: (TBD)
+  ~~~~~~   \ \__/ /   ~~~~~~    CPU: Intel Core i5-11500
+   ~~~~~~~~ \____/ ~~~~~~~~     GPU: Intel UHD Graphics 750 (iGPU / Quick Sync)
+     ~~~~~~~/____\~~~~~~~       Memory: DDR4 16gb
+        ~~~/      \~~~          Motherboard: MSI B560M mortar wifi
+                                Network: 2.5GbE (Motherboard NIC)
+                                Storage: M.2 SSD Pool(s) - 1TB x1
+                                Storage: M.2 SSD Pool(s) - 500GB x1
+                                Storage: HDD Pool(s) - 8TB x1 (media_main) (planned)
+                                Storage: HDD Pool(s) - 4TB x2 (media_4tb_a / media_4tb_b) (planned)
+                                Services: SMB, Jellyfin (planned), Docker Apps (planned)
+                                Notes: TrueNAS SCALE + home server / NAS role
+```
