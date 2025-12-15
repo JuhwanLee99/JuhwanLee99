@@ -11,9 +11,36 @@
 </a>
 
 # Dev Environment
-## Mac
-```text
-                    'c.          juhwan@ijuhwan-ui-MacBookAir.local 
+
+<!-- ===== Summary (always visible) ===== -->
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Mac</b><br/>
+      MacBook Air (M3, 24GB)<br/>
+      macOS 15.7.2 (arm64)<br/>
+      2560×1440 + 1710×1107
+    </td>
+    <td width="33%" valign="top">
+      <b>Windows</b><br/>
+      Ryzen 5 9600X · RTX 4070 SUPER<br/>
+      Windows 11 23H2<br/>
+      2560×1440 @144Hz
+    </td>
+    <td width="33%" valign="top">
+      <b>NAS</b><br/>
+      TrueNAS SCALE (planned)<br/>
+      i5-11500 · UHD 750 (Quick Sync)<br/>
+      2.5GbE · 16GB RAM
+    </td>
+  </tr>
+</table>
+
+<!-- ===== Details (collapsible) ===== -->
+<details>
+  <summary><b>Mac (neofetch)</b></summary>
+
+  <pre><code>                    'c.          juhwan@ijuhwan-ui-MacBookAir.local 
                  ,xNMM.          ---------------------------------- 
                .OMMMMo           OS: macOS 15.7.2 24G325 arm64 
                OMMM0,            Host: Mac15,13 
@@ -29,12 +56,13 @@
   .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: SFMono-Regular 
     kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Apple M3 
      ;KMMMMMMMWXXWMMMMMMMk.      GPU: Apple M3 
-       .cooc,.    .,coo:.        Memory: 3200MiB / 24576MiB                                                      
-```
+       .cooc,.    .,coo:.        Memory: 3200MiB / 24576MiB</code></pre>
+</details>
 
-## Windows
-```text
-llllllllllllllll   llllllllllllllll         jimmy@LEE-JH
+<details>
+  <summary><b>Windows (neofetch)</b></summary>
+
+  <pre><code>llllllllllllllll   llllllllllllllll         jimmy@LEE-JH
 llllllllllllllll   llllllllllllllll         --------------
 llllllllllllllll   llllllllllllllll         OS: Windows 11
 llllllllllllllll   llllllllllllllll         Build: 23H2 (22631)
@@ -52,12 +80,13 @@ llllllllllllllll   llllllllllllllll
 llllllllllllllll   llllllllllllllll
 llllllllllllllll   llllllllllllllll
 llllllllllllllll   llllllllllllllll
-llllllllllllllll   llllllllllllllll
-```
+llllllllllllllll   llllllllllllllll</code></pre>
+</details>
 
-## Comming Soon
-```text
-        ~~~\      /~~~          nas@truenas.local
+<details>
+  <summary><b>NAS (coming soon)</b></summary>
+
+  <pre><code>        ~~~\      /~~~          nas@truenas.local
      ~~~~~~~\____/~~~~~~~       ----------------------------------
    ~~~~~~~~  ____  ~~~~~~~~     OS: TrueNAS SCALE (Debian-based)
   ~~~~~~~   / __ \   ~~~~~~~    Host: DIY NAS (Custom Build)
@@ -71,8 +100,5 @@ llllllllllllllll   llllllllllllllll
                                 Network: 2.5GbE (Motherboard NIC)
                                 Storage: M.2 SSD Pool(s) - 1TB x1
                                 Storage: M.2 SSD Pool(s) - 500GB x1
-                                Storage: HDD Pool(s) - 8TB x1 (media_main) (planned)
-                                Storage: HDD Pool(s) - 4TB x2 (media_4tb_a / media_4tb_b) (planned)
-                                Services: SMB, Jellyfin (planned), Docker Apps (planned)
-                                Notes: TrueNAS SCALE + home server / NAS role
-```
+                                Storage: HDD Pool(s) - 8TB x1 (media_main) (planned</code></pre>
+</details>
