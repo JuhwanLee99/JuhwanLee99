@@ -31,7 +31,7 @@
     </td>
     <td width="33%" valign="top">
       <b>NAS</b><br/>
-      TrueNAS SCALE (planned)<br/>
+      TrueNAS SCALE<br/>
       Intel Core i5-11500<br/>
       Intel UHD 750 (Quick Sync)<br/>
       16GB RAM<br/>
