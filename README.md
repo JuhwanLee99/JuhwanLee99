@@ -4,7 +4,7 @@
 
 **Projects** · [AUBL](https://aubl.club) · SyncGaze · [SnapFig](https://github.com/CommitBang/Snapfig-Frontend)  
 **Stack** · React · TypeScript · Java · Spring Boot · Docker  
-**Portfolio** · [Source](https://github.com/JuhwanLee99/JuhwanLee99/tree/portfolio)
+**Portfolio** · [Website](https://juhwanlee-portfolio.vercel.app/)
 
 ---
 
