@@ -353,3 +353,63 @@ body{font-size:16px}
     max-height: 75vh;
   }
 }
+
+/* Final narrow-screen rules: later desktop sizing must not widen mobile content. */
+.chapter-body > *,
+.narrative > *,
+.tech-grid > *,
+.accordion-list > *,
+.gallery,
+.gallery-track,
+.gallery-slide,
+.gallery-image,
+.architecture-diagram,
+.architecture-node,
+.expandable,
+.expandable-trigger,
+.expandable-title,
+.gallery-slide figcaption strong {
+  min-width: 0;
+  max-width: 100%;
+}
+.detail-title,
+.chapter-heading h2,
+.map-name,
+.expandable-title,
+.expandable-content-inner,
+.line-item,
+.info-cell strong,
+.architecture-diagram-head,
+.architecture-node,
+.gallery-slide figcaption strong,
+.next-project a {
+  overflow-wrap: anywhere;
+}
+.gallery-slide figcaption strong { flex: 1; }
+.architecture-diagram-head { flex-wrap: wrap; }
+
+@media (max-width: 900px) {
+  .container { width: min(calc(100% - 48px), 1560px); }
+  .cover-main,
+  .chapter-body { grid-template-columns: minmax(0, 1fr); }
+  .map-row { grid-template-columns: 45px minmax(0, 1fr) 150px 26px; }
+}
+
+@media (max-width: 600px) {
+  .container { width: calc(100% - 32px); }
+  .cover-main,
+  .chapter-body,
+  .narrative,
+  .tech-grid { grid-template-columns: minmax(0, 1fr); }
+  .cover h1 { font-size: clamp(48px, 12.8vw, 72px); }
+  .detail-title { font-size: clamp(44px, 11vw, 64px); }
+  .chapter-heading h2 { font-size: clamp(45px, 12vw, 70px); }
+  .map-row { grid-template-columns: 29px minmax(0, 1fr) 22px; gap: 9px; }
+  .info-band { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .info-cell { min-width: 0; }
+  .line-item { grid-template-columns: 35px minmax(0, 1fr); }
+  .gallery-top { flex-wrap: wrap; align-items: flex-start; }
+  .gallery-controls { margin-left: auto; }
+  .gallery-slide figcaption { flex-wrap: wrap; }
+  .gallery-slide figcaption strong { flex: 1 1 calc(100% - 40px); }
+}
