@@ -1,5 +1,13 @@
 # 👋 Hello World
 
+## 이주환
+
+**Projects** · [AUBL](https://aubl.club) · SyncGaze · [SnapFig](https://github.com/CommitBang/Snapfig-Frontend)  
+**Stack** · React · TypeScript · Java · Spring Boot · Docker  
+**Portfolio** · [Source](https://github.com/JuhwanLee99/JuhwanLee99/tree/portfolio)
+
+---
+
 <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuhwanLee99&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
 </a>    
