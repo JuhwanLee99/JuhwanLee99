@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">Seniorro 서비스 기획 구조</title><desc id="desc">고객 수요와 은퇴 경력자 공급을 분석하고 검증, 매칭, 보상, 확장 전략으로 연결합니다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L9 5 1 9" fill="none" stroke="#24618f" stroke-width="2"/></marker></defs>
+<rect width="1200" height="660" fill="#f1f6fb"/><path d="M48 48H1152M48 612H1152" stroke="#b9cede" stroke-width="2"/>
+<text x="52" y="93" fill="#275c86" font-family="Noto Sans KR, sans-serif" font-size="20" font-weight="700">SENIORRO / SERVICE STRATEGY</text>
+<text x="52" y="151" fill="#102f52" font-family="Noto Sans KR, sans-serif" font-size="40" font-weight="800">참여자 양쪽의 가치를 운영 규칙으로 연결</text>
+<g font-family="Noto Sans KR, sans-serif"><rect x="55" y="235" width="320" height="145" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="80" y="279" fill="#24618f" font-size="19" font-weight="700">01 / DEMAND</text><text x="80" y="325" fill="#102f52" font-size="29" font-weight="800">고객 수요</text><text x="80" y="355" fill="#526e83" font-size="18">필요한 도움 · 이용 장벽</text>
+<rect x="440" y="235" width="320" height="145" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="465" y="279" fill="#24618f" font-size="19" font-weight="700">02 / SUPPLY</text><text x="465" y="325" fill="#102f52" font-size="29" font-weight="800">경력자 참여</text><text x="465" y="355" fill="#526e83" font-size="18">경험 · 보상 · 재참여</text>
+<rect x="825" y="235" width="320" height="145" fill="#1f527e"/><text x="850" y="279" fill="#c7dfef" font-size="19" font-weight="700">03 / SERVICE</text><text x="850" y="325" fill="#fff" font-size="29" font-weight="800">검증 · 매칭</text><text x="850" y="355" fill="#d5e8f4" font-size="18">신뢰와 운영 기준</text>
+<rect x="245" y="458" width="710" height="100" fill="#dceaf5" stroke="#a8c5da" stroke-width="2"/><text x="270" y="500" fill="#24618f" font-size="19" font-weight="700">04 / GROWTH</text><text x="270" y="538" fill="#102f52" font-size="27" font-weight="800">경쟁 분석 → 이용 유인 → 사업 확장 로드맵</text></g>
+<path d="M375 307H430M760 307H815M985 380V430H600V448" stroke="#24618f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="52" y="638" fill="#668099" font-family="Noto Sans KR, sans-serif" font-size="16">기획 결과를 바탕으로 재구성한 도식</text>
+</svg>

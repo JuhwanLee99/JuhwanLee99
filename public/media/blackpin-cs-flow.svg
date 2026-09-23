@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">BLACKPIN CS AI 처리 흐름</title><desc id="desc">문의 분류, 근거 조회, 초안 생성, 검증, 사람 승인 순서의 처리 구조입니다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L9 5 1 9" fill="none" stroke="#24618f" stroke-width="2"/></marker></defs>
+<rect width="1200" height="660" fill="#f1f6fb"/><path d="M48 48H1152M48 612H1152" stroke="#b9cede" stroke-width="2"/>
+<text x="52" y="93" fill="#275c86" font-family="Noto Sans KR, sans-serif" font-size="20" font-weight="700">BLACKPIN / CS AUTOMATION</text>
+<text x="52" y="151" fill="#102f52" font-family="Noto Sans KR, sans-serif" font-size="40" font-weight="800">초안 생성과 최종 전송 사이에 검증과 승인을 둡니다</text>
+<g font-family="Noto Sans KR, sans-serif"><rect x="55" y="235" width="330" height="128" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="80" y="279" fill="#24618f" font-size="19" font-weight="700">01 / ROUTER</text><text x="80" y="327" fill="#102f52" font-size="29" font-weight="800">문의 분류</text>
+<rect x="435" y="235" width="330" height="128" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="460" y="279" fill="#24618f" font-size="19" font-weight="700">02 / EVIDENCE</text><text x="460" y="327" fill="#102f52" font-size="29" font-weight="800">RAG · DB 조회</text>
+<rect x="815" y="235" width="330" height="128" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="840" y="279" fill="#24618f" font-size="19" font-weight="700">03 / DRAFT</text><text x="840" y="327" fill="#102f52" font-size="29" font-weight="800">답변 초안</text>
+<rect x="250" y="445" width="330" height="128" fill="#fff" stroke="#a8c5da" stroke-width="2"/><text x="275" y="489" fill="#24618f" font-size="19" font-weight="700">04 / VALIDATE</text><text x="275" y="537" fill="#102f52" font-size="29" font-weight="800">정책 · 사실 검증</text>
+<rect x="630" y="445" width="330" height="128" fill="#1f527e"/><text x="655" y="489" fill="#c7dfef" font-size="19" font-weight="700">05 / APPROVAL</text><text x="655" y="537" fill="#fff" font-size="29" font-weight="800">담당자 승인 후 전송</text></g>
+<path d="M385 299H425M765 299H805M980 363V405H415V435M580 509H620" stroke="#24618f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="52" y="638" fill="#668099" font-family="Noto Sans KR, sans-serif" font-size="16">공개 가능한 업무 흐름을 바탕으로 재구성한 도식</text>
+</svg>
