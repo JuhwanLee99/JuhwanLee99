@@ -427,7 +427,7 @@ export const projects: ProjectData[] = [
     summary: '소프트웨어공학 팀 프로젝트로 만든 이슈 관리 시스템. 웹과 CLI에서 프로젝트·사용자·이슈를 관리하고 서버 API와 데이터베이스로 연결했습니다.',
     timeline: {
       role: '요구사항·설계 명세 · Spring Boot REST API 개발 참여',
-      period: '정확한 기간 확인 중',
+      period: '2024.03 - 2024.06',
     },
     description: {
       problem: '프로젝트별 이슈와 담당자, 진행 상태를 분리된 수단으로 관리하면 작업 현황과 변경 이력을 파악하기 어렵습니다.',
@@ -471,7 +471,7 @@ export const projects: ProjectData[] = [
       { title: '새 프로젝트 생성', source: 'local', url: '/media/issue-control-web-02.jpg', alt: '팀8 이슈 관리 시스템의 프로젝트 생성과 팀원 선택 화면' },
       { title: '사용자 관리', source: 'local', url: '/media/issue-control-web-03.jpg', alt: '팀8 이슈 관리 시스템의 사용자 관리 화면' },
     ],
-    galleryNotes: '제공된 웹 데모 영상에서 공개 가능한 화면을 캡처했습니다. 로그인·비밀번호 입력 및 CLI 화면은 제외했습니다. 정확한 프로젝트 기간은 확인 후 업데이트합니다.',
+    galleryNotes: '제공된 웹 데모 영상에서 공개 가능한 화면을 캡처했습니다. 로그인·비밀번호 입력 및 CLI 화면은 제외했습니다.',
   },
   {
     slug: 'dip-team5',
