@@ -38,6 +38,14 @@ export function HomePage() {
             <div className="cover-stack-head"><span className="meta-label">Core Stack</span><Link to="/stack">전체 기술 보기 ↗</Link></div>
             <div className="cover-stack-tags">{featuredTechStacks.map((stack) => <Link key={stack.id} to={'/stack?tech=' + stack.id}>{stack.name}</Link>)}</div>
           </div>
+          <div className="meta-block cover-life">
+            <div className="cover-stack-head"><span className="meta-label">Life</span><Link to="/life">일상 전체 보기 ↗</Link></div>
+            <nav className="cover-life-links" aria-label="일상 바로가기">
+              <Link to="/life/running"><span><strong>러닝</strong><small>5km · 10km · 하프</small></span><span aria-hidden="true">↗</span></Link>
+              <Link to="/life/homelab"><span><strong>컴퓨터와 NAS</strong><small>직접 조립 · 서버 운영</small></span><span aria-hidden="true">↗</span></Link>
+              <Link to="/life/baseball"><span><strong>야구</strong><small>활동 사진 · 타격 연습</small></span><span aria-hidden="true">↗</span></Link>
+            </nav>
+          </div>
         </aside>
       </div>
       <div className="cover-bottom"><div className="cover-mini-index">{orderedProjects.map((project, i) => <a href={`#${project.slug}`} key={project.slug}><span>{String(i + 1).padStart(2, '0')}</span>{project.title}</a>)}</div><span className="page-no">01 / PORTFOLIO</span></div>

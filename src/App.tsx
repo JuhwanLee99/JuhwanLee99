@@ -8,6 +8,8 @@ import { ProjectDetailPage } from './pages/ProjectDetailPage';
 import { TechStackPage } from './pages/TechStackPage';
 import { LifePage } from './pages/LifePage';
 import { RunningPage } from './pages/RunningPage';
+import { BaseballPage } from './pages/BaseballPage';
+import { HomelabPage } from './pages/HomelabPage';
 
 export function App() {
   return (
@@ -21,6 +23,8 @@ export function App() {
           <Route path="/stack" element={<TechStackPage />} />
           <Route path="/life" element={<LifePage />} />
           <Route path="/life/running" element={<RunningPage />} />
+          <Route path="/life/baseball" element={<BaseballPage />} />
+          <Route path="/life/homelab" element={<HomelabPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>

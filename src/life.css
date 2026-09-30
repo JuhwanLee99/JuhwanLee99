@@ -87,3 +87,77 @@
 }
 @media(max-width:380px){.running-records{grid-template-columns:minmax(0,1fr)}.running-record+.running-record{border-left:0;border-top:1px solid var(--line)}.running-record{grid-template-columns:minmax(0,1fr) auto;gap:8px 12px}.running-record strong{grid-column:2;grid-row:1/3;font-size:36px;align-self:center}.running-record-link{grid-column:1/-1}.running-record-event{grid-column:1;grid-row:2}}
 @media(prefers-reduced-motion:reduce){.life-card--running{transition:none}.life-card--running:hover{transform:none}}
+
+/* Direct links in the first-screen profile column. */
+.cover-life{grid-column:1/-1}
+.cover-life-links{display:grid;gap:3px}
+.cover-life-links>a{display:flex;justify-content:space-between;align-items:center;gap:12px;min-width:0;padding:10px 0;border-bottom:1px solid #e0eaf2;transition:color .2s,padding .2s}
+.cover-life-links>a:last-child{border-bottom:0}
+.cover-life-links>a:hover{color:#2a76ab;padding-left:5px}
+.cover-life-links>a>span:first-child{min-width:0;display:grid;gap:3px}
+.cover-life-links strong{font-size:14px;line-height:1.4}
+.cover-life-links small{font-size:12px;color:var(--muted);line-height:1.5}
+.cover-life-links a:focus-visible{outline:3px solid #4e9ac9;outline-offset:3px}
+.baseball-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.baseball-video-grid>*{min-width:0}
+.baseball-video-card{border:1px solid var(--line);background:#fff}
+.baseball-video-card .running-video{border:0}
+.baseball-video-copy{padding:25px}
+.baseball-video-copy h3{font-size:25px;letter-spacing:-.04em;font-weight:800;margin:10px 0}
+.baseball-video-copy .text-link{margin-top:15px}
+.homelab-page .running-hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.homelab-page .running-hero h1{font-size:clamp(46px,5.5vw,82px)}
+.homelab-page .running-hero .body-copy{max-width:550px;margin-top:22px}
+.homelab-diagram{border:1px solid #ccdeeb;background:repeating-linear-gradient(0deg,transparent,transparent 27px,#d5e4ef33 28px),#f6fafd;padding:28px;min-width:0}
+.homelab-diagram-heading{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.homelab-diagram-label{font-size:11px;color:var(--muted)}
+.homelab-external{border:1px solid #c4d7e7;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:15px 20px;gap:12px}
+.homelab-external strong{font-size:17px}.homelab-external span{font-size:12px;color:var(--muted)}
+.homelab-connector{height:35px;display:grid;place-items:center;color:var(--blue);font-size:23px}
+.homelab-server-box{padding:24px;background:#17476e;color:#fff}
+.homelab-server-box>.kicker{color:#bbd6ea;font-size:11px}
+.homelab-server-box h3{font-size:28px;font-weight:700;line-height:1.2;margin:12px 0}
+.homelab-server-box>p{font-size:12px;color:#cfe2f0;line-height:1.6;margin:0 0 20px}
+.homelab-docker{border:1px solid #7395b0;padding:17px;background:#ffffff0a}
+.homelab-docker .meta-label{color:#ccdfed;font-size:10px}
+.homelab-service-pair{display:grid;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr);gap:8px;align-items:center;margin-top:15px}
+.homelab-service-pair strong{display:grid;gap:7px;font-size:14px;line-height:1.5}
+.homelab-service-pair strong>span{font-weight:500;font-size:12px;color:#c8dfee}
+.homelab-management{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px dashed #7395b0;margin-top:18px;padding-top:17px;font-size:12px;color:#c8dfee}
+.homelab-management strong{color:#fff;font-size:14px}
+.homelab-spec-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0}
+.homelab-spec{border:1px solid var(--line);padding:23px;background:#f7fafc;min-width:0}
+.homelab-spec dt{display:flex;align-items:center;flex-wrap:wrap;gap:9px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.homelab-spec dd{margin:15px 0 0;display:grid;gap:10px}
+.homelab-spec dd strong{font-size:19px;line-height:1.45;letter-spacing:-.025em}
+.homelab-spec dd>span{color:var(--muted);font-size:12px;line-height:1.65}
+.homelab-spec--planned{border-style:dashed;background:#fff}
+.homelab-spec dt>span{font-size:10px;letter-spacing:0;padding:3px 6px;border:1px solid var(--line)}
+.homelab-pc{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;align-items:center;margin-top:26px;padding:25px;border-left:3px solid var(--blue);background:#f0f6fb}
+.homelab-pc h3{font-size:20px;letter-spacing:-.03em;margin:9px 0 0}
+.homelab-pc p{font-size:14px;line-height:1.9;margin:0;color:#4c6b83}
+.homelab-steps{display:grid;gap:12px}
+.homelab-step{border:1px solid var(--line);background:#fff}
+.homelab-step summary{display:grid;grid-template-columns:42px minmax(0,1fr) 26px;gap:18px;align-items:center;padding:25px;list-style:none;cursor:pointer}
+.homelab-step summary::-webkit-details-marker{display:none}
+.homelab-step-number{font-size:14px;font-weight:800;color:var(--blue)}
+.homelab-step summary>span:nth-child(2){display:grid;gap:7px}
+.homelab-step summary strong{font-size:22px;letter-spacing:-.035em;line-height:1.4}
+.homelab-step summary>span:nth-child(2)>span{font-size:14px;color:var(--muted);line-height:1.6}
+.homelab-step-toggle{font-size:25px;text-align:center}
+.homelab-step[open] .homelab-step-toggle{transform:rotate(45deg)}
+.homelab-step[open] summary{background:#eef5fa}
+.homelab-step-detail{padding:4px 25px 26px 85px}
+.homelab-step-detail p{font-size:16px;line-height:1.85;color:#4c6b83;margin:18px 0}
+.homelab-tags{display:flex;flex-wrap:wrap;gap:7px}
+.homelab-tags span{font-size:12px;padding:6px 9px;border:1px solid var(--line);background:#f7fafc}
+.homelab-role-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:30px}
+.homelab-role-grid article{background:#f0f6fb;padding:28px;border-top:3px solid var(--blue)}
+.homelab-role-grid h3{font-size:23px;font-weight:800;letter-spacing:-.04em;margin:0 0 20px}
+.homelab-role-grid ul{padding-left:20px;list-style:disc;margin:0}
+.homelab-role-grid li{font-size:15px;line-height:1.8;color:#4c6b83;margin:9px 0}
+.homelab-operation-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.homelab-page a:focus-visible,.homelab-step summary:focus-visible{outline:3px solid #4e9ac9;outline-offset:4px}
+@media(max-width:1000px){.homelab-spec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.homelab-page .running-hero-grid{gap:25px}.homelab-diagram{padding:20px}.homelab-server-box{padding:18px}}
+@media(max-width:760px){.baseball-video-grid,.homelab-page .running-hero-grid,.homelab-role-grid{grid-template-columns:minmax(0,1fr)}.homelab-page .running-hero h1{font-size:clamp(42px,10.5vw,64px)}.homelab-diagram{padding:18px}.homelab-spec{padding:18px}.homelab-spec dd strong{font-size:17px}.homelab-step summary{grid-template-columns:27px minmax(0,1fr) 22px;gap:10px;padding:18px}.homelab-step summary strong{font-size:19px}.homelab-step summary>span:nth-child(2)>span{font-size:13px}.homelab-step-detail{padding:0 18px 20px}.homelab-step-detail p{font-size:15px}.homelab-role-grid article{padding:23px}.cover-life-links>a{min-height:58px}}
+@media(max-width:380px){.homelab-spec-grid{grid-template-columns:minmax(0,1fr)}}
