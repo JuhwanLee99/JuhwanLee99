@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ExpandableItem } from '../components/ExpandableItem';
 import { ProjectGallery } from '../components/ProjectGallery';
 import { Reveal } from '../components/Reveal';
+import { LifeOverview } from '../components/LifeOverview';
 import { chapterLabels, orderedProjects } from '../data/portfolioOrder';
 import { featuredTechStacks } from '../data/techStack';
 import { getGallery, getPointDetail } from '../data/projectPresentation';
@@ -41,6 +42,7 @@ export function HomePage() {
       </div>
       <div className="cover-bottom"><div className="cover-mini-index">{orderedProjects.map((project, i) => <a href={`#${project.slug}`} key={project.slug}><span>{String(i + 1).padStart(2, '0')}</span>{project.title}</a>)}</div><span className="page-no">01 / PORTFOLIO</span></div>
     </div></section>
+    <LifeOverview />
     <section className="map-section" id="contents" aria-labelledby="contents-heading"><div className="container"><Reveal><div className="map-head"><div><span className="kicker">CONTENTS / EXPERIENCE MAP</span><h2 className="section-heading" id="contents-heading">역할과 결과물로 읽는 경험</h2></div><span className="page-no">02 / EXPERIENCE MAP</span></div><p className="lede">현장 운영에서 시작해 구현, AI 업무 적용, 데이터 실험과 서비스 기획까지.</p></Reveal><div className="map-table">{orderedProjects.map((project, i) => <Reveal key={project.slug}><a className="map-row" href={`#${project.slug}`}><span className="map-num">{String(i + 1).padStart(2, '0')}</span><span className="map-name">{project.title}</span><span className="map-period">{project.timeline.period}</span><span className="map-detail">{chapterLabels[project.slug]}<br />{project.timeline.role}</span><span className="map-arrow" aria-hidden="true">↘</span></a></Reveal>)}</div><Reveal><div className="map-flow"><span>현장 운영</span><span>웹·앱 구축</span><span>AI 업무 적용</span><span>데이터 검증</span><span>서비스 기획</span></div></Reveal></div></section>
     {orderedProjects.map((project, index) => <Chapter project={project} index={index} key={project.slug} />)}
     <section className="summary-section"><div className="container"><Reveal><span className="kicker">SUMMARY / WHAT CONNECTS THE WORK</span><h2 className="section-heading">기획–구축–검증을 잇는 경험</h2><p className="lede">현장의 요구를 듣고, 구현 가능한 기준으로 바꾸고, 실제 사용과 데이터를 통해 다시 확인합니다.</p><div className="summary-grid"><div><span>01 / FIELD</span><strong>AUBL 현장 운영<br />사용자 업무 흐름 분석</strong></div><div><span>02 / BUILD</span><strong>React · Flutter<br />API · 데이터베이스 연동</strong></div><div><span>03 / VALIDATE</span><strong>CS 하네스 검증<br />SyncGaze 실험·리포트</strong></div></div><div className="summary-contact"><Link className="button" to="/stack">기술 스택 보기 ↗</Link><a className="button secondary" href="https://github.com/JuhwanLee99" target="_blank" rel="noreferrer">GitHub 보기 ↗</a></div></Reveal></div></section>

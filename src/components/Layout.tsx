@@ -6,7 +6,7 @@ export function Layout({ children }: { children: ReactNode }) {
   return <div className="shell">
     <header className="site-header"><div className="container header-inner">
       <Link className="brand" to="/" aria-label="이주환 포트폴리오 홈"><span className="brand-mark" aria-hidden="true" /> LEE JUHWAN / PORTFOLIO</Link>
-      <nav className="site-nav" aria-label="주요 메뉴"><NavLink to="/">HOME</NavLink><NavLink to="/portfolio">PROJECTS</NavLink><NavLink to="/stack">STACK</NavLink></nav>
+      <nav className="site-nav" aria-label="주요 메뉴"><NavLink to="/">HOME</NavLink><NavLink to="/portfolio">PROJECTS</NavLink><NavLink to="/stack">STACK</NavLink><NavLink to="/life" aria-label="일상과 관심사">LIFE</NavLink></nav>
     </div></header>
     <TopProgressBar />
     <main>{children}</main>

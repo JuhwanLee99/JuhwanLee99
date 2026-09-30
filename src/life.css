@@ -1,0 +1,89 @@
+/* Personal interests share the portfolio's blue, paper-like visual language. */
+.life-overview{padding:90px 0;background:linear-gradient(150deg,#f0f6fb,#fff 65%);border-block:1px solid var(--line)}
+.life-overview--page{min-height:75svh;padding-top:70px}
+.life-section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px;flex-wrap:wrap}
+.life-section-head .section-heading{margin-bottom:14px}
+.life-section-head .body-copy{margin:0}
+.life-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
+.life-card-grid>*{min-width:0}
+.life-card{display:block;min-width:0;background:#fff;border:1px solid var(--line)}
+.life-card--running{transition:transform .25s,border-color .25s,box-shadow .25s}
+.life-card--running:hover{transform:translateY(-5px);border-color:var(--blue);box-shadow:0 16px 34px #102f5212}
+.life-card-media{aspect-ratio:16/10;position:relative;overflow:hidden;background:#e5eef6}
+.life-card-media>img{display:block;width:100%;height:100%;object-fit:cover}
+.life-card-label{position:absolute;left:17px;bottom:16px;padding:7px 10px;background:#fff;color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.12em}
+.life-card-body{padding:25px}
+.life-card-body h3{font-size:29px;font-weight:800;letter-spacing:-.05em;line-height:1.25;margin:9px 0 13px}
+.life-card-body p{font-size:15px;line-height:1.75;color:#526d85;margin:0 0 20px;overflow-wrap:anywhere}
+.life-card-action,.life-home-details summary{font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:17px}
+.life-home-details summary{cursor:pointer;list-style:none}
+.life-home-details summary::-webkit-details-marker{display:none}
+.life-home-details[open] summary{margin-bottom:17px}
+.life-home-details[open] summary>span{transform:rotate(45deg)}
+.life-home-details p{font-size:14px;margin-bottom:14px}
+.life-pending{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);padding:7px 10px}
+.life-homelab-art{display:grid;place-items:center;background:radial-gradient(ellipse at 70% 20%,#dae8f2,transparent 60%),repeating-linear-gradient(0deg,transparent,transparent 25px,#c7d9e63b 26px),#eef4f9}
+.life-server{width:40%;display:grid;gap:9px;transform:perspective(600px) rotateY(-13deg);padding-bottom:10px}
+.life-server>span{height:28px;background:#174f7d;border-radius:3px;box-shadow:7px 7px 0 #c1d3e1;position:relative}
+.life-server>span:before{content:'';position:absolute;top:11px;left:12px;width:5px;height:5px;border-radius:50%;background:#a8d0b8;box-shadow:9px 0 0 #749bb8}
+.life-server>span:after{content:'';position:absolute;top:10px;right:12px;width:35%;height:7px;border-block:1px solid #769ab7}
+.life-baseball-art{display:grid;place-items:center;background:radial-gradient(ellipse at 50% 120%,#d2e6dc,transparent 70%),#eef4f1}
+.life-diamond{width:30%;aspect-ratio:1;transform:rotate(45deg);border:2px solid #91ab9c;position:relative;background:#dce9e1;box-shadow:0 0 0 23px #dce9e14d}
+.life-diamond span{position:absolute;width:10px;height:10px;background:white;border:1px solid #91ab9c}
+.life-diamond span:nth-child(1){left:-6px;top:-6px}.life-diamond span:nth-child(2){right:-6px;top:-6px}.life-diamond span:nth-child(3){right:-6px;bottom:-6px}.life-diamond span:nth-child(4){left:-6px;bottom:-6px}
+.running-page{overflow-wrap:anywhere}
+.running-hero{padding:38px 0 64px;background:linear-gradient(150deg,#f0f6fb,#fff 75%)}
+.running-back{margin-bottom:35px}
+.running-hero-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:50px;align-items:center}
+.running-hero h1{font-size:clamp(48px,6vw,96px);font-weight:800;letter-spacing:-.07em;line-height:1.15;margin:20px 0 26px}
+.running-hero .lede{font-size:clamp(18px,2vw,25px)}
+.running-hero-photo{margin:0;min-width:0}
+.running-hero-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line)}
+.running-hero-photo figcaption{padding-top:12px;color:var(--muted);font-size:12px;letter-spacing:.03em}
+.running-section-nav{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:32px}
+.running-section-nav a{font-size:13px;font-weight:700;padding-block:9px;border-bottom:1px solid #bbcedf}
+.running-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:48px;border:1px solid var(--line);background:#fff}
+.running-record{display:grid;align-content:start;gap:9px;padding:27px 30px;min-width:0;transition:background .2s}
+.running-record+.running-record{border-left:1px solid var(--line)}
+.running-record:hover{background:var(--pale)}
+.running-record-distance{font-size:13px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--blue)}
+.running-record strong{font-size:clamp(33px,4vw,64px);font-weight:700;font-variant-numeric:tabular-nums;line-height:1.15;letter-spacing:-.045em}
+.running-record-event{font-size:13px;color:var(--muted);line-height:1.5}
+.running-record-link{font-size:12px;font-weight:700;margin-top:9px}
+.running-section{padding:85px 0;border-top:1px solid var(--line);scroll-margin-top:84px}
+.running-section--tint{background:#f7fafc}
+.running-filters{display:flex;flex-wrap:wrap;gap:7px}
+.running-filters button{border:1px solid var(--line);background:white;padding:10px 17px;min-height:44px;color:var(--blue);font-size:13px;font-weight:700}
+.running-filters button[aria-pressed=true],.running-filters button:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+.running-result-count{font-size:12px;color:var(--muted);margin:0 0 15px}
+.race-list{border-top:2px solid var(--blue)}
+.race-item{border-bottom:1px solid var(--line)}
+.race-item summary{display:grid;grid-template-columns:75px minmax(0,1fr) 140px 25px;align-items:center;gap:20px;padding:24px 17px;list-style:none;cursor:pointer;transition:background .2s}
+.race-item summary::-webkit-details-marker{display:none}
+.race-item summary:hover,.race-item[open] summary{background:var(--pale)}
+.race-distance{font-size:13px;letter-spacing:.03em;font-weight:800;color:var(--blue)}
+.race-description{display:grid;gap:6px;min-width:0}
+.race-description strong{font-size:19px;line-height:1.45;letter-spacing:-.02em}
+.race-description>span{font-size:12px;color:var(--muted)}
+.race-time{font-size:25px;letter-spacing:-.03em;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.race-toggle{font-size:25px;line-height:1;text-align:center}
+.race-item[open] .race-toggle{transform:rotate(45deg)}
+.race-certificate{padding:20px;background:#f3f7fa}
+.race-certificate>a{display:grid;justify-items:center;gap:15px;font-size:13px;font-weight:700}
+.race-certificate img{display:block;max-width:100%;width:auto;height:auto;max-height:650px;object-fit:contain}
+.running-page .gallery,.running-page .gallery-track{max-width:100%;min-width:0}
+.running-video{aspect-ratio:16/9;background:#102f52;overflow:hidden;border:1px solid var(--line)}
+.running-video video{display:block;width:100%;height:100%;object-fit:contain}
+.running-video-link{margin-top:18px}
+.running-bottom-links{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;padding-bottom:65px}
+.life-card:focus-visible,.life-home-details summary:focus-visible,.running-page a:focus-visible,.running-page button:focus-visible,.race-item summary:focus-visible{outline:3px solid #4e9ac9;outline-offset:4px}
+@media(max-width:1000px){.life-card-grid{gap:14px}.life-card-body{padding:20px}.running-hero-grid{gap:28px}.running-record{padding:24px}.running-hero h1{font-size:clamp(48px,6vw,72px)}}
+@media(max-width:760px){
+  .site-header{height:104px}.site-header .header-inner{flex-direction:column;align-items:stretch;justify-content:center;gap:9px}.site-header .brand{font-size:12px}.site-header .site-nav{justify-content:space-between;gap:12px}.site-header .site-nav a{font-size:12px;display:inline-flex;align-items:center;min-height:32px}.progress-track{top:104px}.cover{min-height:calc(100svh - 104px)}
+  .life-overview{padding:60px 0}.life-card-grid{grid-template-columns:minmax(0,1fr);gap:20px}.life-card-media{aspect-ratio:16/8}.life-card-body{padding:23px}.life-card-body h3{font-size:28px}
+  .running-hero{padding-top:28px}.running-hero-grid{grid-template-columns:minmax(0,1fr);gap:30px}.running-hero h1{font-size:clamp(46px,11vw,68px)}.running-hero .lede{font-size:20px}.running-hero-photo img{aspect-ratio:4/3}.running-section-nav{margin-top:22px}.running-section{padding:60px 0;scroll-margin-top:120px}
+  .running-records{margin-top:30px}.running-record{padding:17px 13px}.running-record strong{font-size:clamp(27px,5.6vw,40px)}.running-record-event{font-size:12px}.running-record-distance{font-size:12px}
+  .race-item summary{grid-template-columns:48px minmax(0,1fr) 24px;gap:9px 12px;padding:20px 9px}.race-description strong{font-size:16px}.race-distance{grid-column:1;grid-row:1}.race-description{grid-column:2;grid-row:1}.race-toggle{grid-column:3;grid-row:1/3}.race-time{grid-column:2;grid-row:2;text-align:left;font-size:25px}.race-certificate{padding:12px}
+}
+@media(max-width:380px){.running-records{grid-template-columns:minmax(0,1fr)}.running-record+.running-record{border-left:0;border-top:1px solid var(--line)}.running-record{grid-template-columns:minmax(0,1fr) auto;gap:8px 12px}.running-record strong{grid-column:2;grid-row:1/3;font-size:36px;align-self:center}.running-record-link{grid-column:1/-1}.running-record-event{grid-column:1;grid-row:2}}
+@media(prefers-reduced-motion:reduce){.life-card--running{transition:none}.life-card--running:hover{transform:none}}

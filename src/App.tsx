@@ -6,6 +6,8 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { PortfolioPage } from './pages/PortfolioPage';
 import { ProjectDetailPage } from './pages/ProjectDetailPage';
 import { TechStackPage } from './pages/TechStackPage';
+import { LifePage } from './pages/LifePage';
+import { RunningPage } from './pages/RunningPage';
 
 export function App() {
   return (
@@ -17,6 +19,8 @@ export function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/portfolio/:slug" element={<ProjectDetailPage />} />
           <Route path="/stack" element={<TechStackPage />} />
+          <Route path="/life" element={<LifePage />} />
+          <Route path="/life/running" element={<RunningPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>
