@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1020" viewBox="0 0 960 1020" role="img" aria-labelledby="title desc">
+  <title id="title">DMS 모델 선정부터 모바일 연동까지</title>
+  <desc id="desc">모델 선정, 데이터셋 확보, 라벨 통합, Colab 학습, 동일 테스트셋 평가, ONNX 변환의 6단계 흐름도.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#2563eb" stroke-width="2"/></marker></defs>
+  <rect width="960" height="1020" fill="#f0f5fc"/>
+  <g font-family="sans-serif" fill="#14243d">
+    <text x="48" y="55" font-size="18" fill="#2563eb" letter-spacing="2">PERSONAL PROJECT / DMS / TRAINING FLOW</text>
+    <text x="48" y="108" font-size="36" font-weight="700">모델 선정부터 앱 연동까지</text>
+    <text x="48" y="150" font-size="23" fill="#53637b">학습 과정과 판단 기준을 재구성한 흐름도</text>
+    <g fill="#fff" stroke="#ccd9eb" stroke-width="2">
+      <rect x="48" y="184" width="864" height="104" rx="14"/>
+      <rect x="48" y="314" width="864" height="104" rx="14"/>
+      <rect x="48" y="444" width="864" height="104" rx="14"/>
+      <rect x="48" y="574" width="864" height="104" rx="14"/>
+      <rect x="48" y="704" width="864" height="104" rx="14"/>
+    </g>
+    <g fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M480 290V307"/><path d="M480 420V437"/><path d="M480 550V567"/><path d="M480 680V697"/><path d="M480 810V827"/>
+    </g>
+    <g font-size="27" font-weight="700">
+      <text x="72" y="225">01 / 모델 선정</text><text x="72" y="355">02 / 데이터셋 확보</text>
+      <text x="72" y="485">03 / 전처리·통합</text><text x="72" y="615">04 / Google Colab GPU 학습</text>
+      <text x="72" y="745">05 / 비교·평가</text>
+    </g>
+    <g font-size="22" fill="#53637b">
+      <text x="72" y="264">YOLO11n · 범용/커스텀 · 단일/듀얼 추론 검토</text>
+      <text x="72" y="394">Roboflow 소스 조사 · 촬영 환경·라벨·라이선스 검토</text>
+      <text x="72" y="524">4클래스 매핑 · 학습 샘플링 · train/valid/test 구분</text>
+      <text x="72" y="654">손실·증강 조정 · 조기 종료 · Drive 체크포인트 관리</text>
+      <text x="72" y="784">동일 test split · 클래스별 mAP · 회귀·불일치 분석</text>
+    </g>
+    <rect x="48" y="834" width="864" height="104" rx="14" fill="#173f8a"/>
+    <text x="72" y="875" font-size="27" font-weight="700" fill="#fff">06 / ONNX 변환·앱 연동</text>
+    <text x="72" y="914" font-size="22" fill="#dce8ff">클래스 순서·입력 크기·opset 확인 → 온디바이스 추론</text>
+    <text x="48" y="980" font-size="21" fill="#53637b">오프라인 평가 결과와 실제 주행 성능은 구분합니다.</text>
+  </g>
+</svg>

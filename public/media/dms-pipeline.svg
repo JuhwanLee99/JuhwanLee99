@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1000" viewBox="0 0 960 1000" role="img" aria-labelledby="title desc">
+  <title id="title">DMS 학습 환경·앱·서버 구조도</title>
+  <desc id="desc">학습 환경에서 생성한 ONNX 모델을 Android 앱에 연결하고, 동의 기반 업로드로 서버와 관리 웹에 이벤트를 전달하는 구성. 자동 재학습은 표시하지 않음.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#2563eb" stroke-width="2"/></marker></defs>
+  <rect width="960" height="1000" fill="#f0f5fc"/>
+  <g font-family="sans-serif" fill="#14243d">
+    <text x="48" y="55" font-size="18" fill="#2563eb" letter-spacing="2">PERSONAL PROJECT / DMS / SYSTEM CONCEPT</text>
+    <text x="48" y="108" font-size="36" font-weight="700">학습과 실행 환경을 분리한 구조</text>
+    <g fill="#fff" stroke="#ccd9eb" stroke-width="2">
+      <rect x="48" y="150" width="864" height="144" rx="16"/>
+      <rect x="48" y="356" width="864" height="148" rx="16"/>
+      <rect x="48" y="566" width="864" height="126" rx="16"/>
+    </g>
+    <text x="74" y="193" font-size="28" font-weight="700">학습 환경 / Local + Google Colab</text>
+    <text x="74" y="235" font-size="23" fill="#53637b">Roboflow 데이터 → 라벨 통합 → GPU 학습·평가</text>
+    <text x="74" y="272" font-size="23" fill="#53637b">Drive 데이터·체크포인트 / Ultralytics·PyTorch</text>
+    <path d="M480 300V344" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="502" y="330" font-size="21" fill="#2563eb">ONNX 변환·앱 에셋 반영</text>
+    <text x="74" y="400" font-size="28" font-weight="700">Android 앱 / Kotlin + Compose</text>
+    <text x="74" y="442" font-size="23" fill="#53637b">CameraX → ONNX·얼굴 모델 → 개인 보정·경보</text>
+    <text x="74" y="481" font-size="23" fill="#53637b">영상 녹화 · Room 이벤트 저장 · 현장 로그</text>
+    <path d="M480 510V554" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="502" y="540" font-size="21" fill="#2563eb">이벤트·클립 전송 조건 판정</text>
+    <text x="74" y="608" font-size="28" font-weight="700">업로드 / 동의·네트워크·개인정보 정책</text>
+    <text x="74" y="653" font-size="23" fill="#53637b">WorkManager · Retrofit · 전송 한도·재시도·진행률</text>
+    <path d="M480 698V742" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="502" y="728" font-size="21" fill="#2563eb">HTTP / 해시·중복 검증</text>
+    <rect x="48" y="756" width="864" height="178" rx="16" fill="#173f8a"/>
+    <text x="74" y="804" font-size="28" font-weight="700" fill="#fff">수집 서버 + 관리자·파트너 웹</text>
+    <text x="74" y="849" font-size="23" fill="#dce8ff">Flask · SQLite·파일 저장 / React 대시보드</text>
+    <text x="74" y="891" font-size="23" fill="#dce8ff">조회 · 감사 · 스냅샷 · 보존 정책 · 평가·관측</text>
+    <text x="48" y="974" font-size="20" fill="#53637b">개발용 구성 개념도 · 실제 앱 화면은 별도 자료로 구분</text>
+  </g>
+</svg>

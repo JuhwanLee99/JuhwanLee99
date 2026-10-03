@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="760" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+  <title id="title">DMS 모바일 전환과 검증 항목 개념도</title>
+  <desc id="desc">Flutter의 영상 처리 제약을 Android 네이티브 구조로 전환하고 전송·개인정보·HTTP 연동을 검증하는 흐름.</desc>
+  <rect width="960" height="760" fill="#f0f5fc"/>
+  <g font-family="sans-serif" fill="#14243d">
+    <text x="48" y="58" font-size="18" fill="#2563eb" letter-spacing="2">PERSONAL PROJECT / DMS / ENGINEERING</text>
+    <text x="48" y="110" font-size="36" font-weight="700">제약을 구현과 검증으로 연결</text>
+    <rect x="48" y="158" width="864" height="146" rx="16" fill="#fff" stroke="#ccd9eb" stroke-width="2"/>
+    <text x="76" y="207" font-size="28" font-weight="700">문제 / Flutter 프로토타입</text>
+    <text x="76" y="253" font-size="24" fill="#53637b">프레임 처리 병목 · 감지와 녹화 병행 제약</text>
+    <path d="M480 314V344M470 334L480 344L490 334" fill="none" stroke="#2563eb" stroke-width="3"/>
+    <rect x="48" y="356" width="864" height="146" rx="16" fill="#173f8a"/>
+    <text x="76" y="407" font-size="28" font-weight="700" fill="#fff">전환 / Kotlin + CameraX</text>
+    <text x="76" y="453" font-size="24" fill="#dce8ff">미리보기 + 프레임 분석 + 영상 녹화 연결</text>
+    <text x="48" y="557" font-size="27" font-weight="700">검증 항목</text>
+    <g fill="#fff" stroke="#ccd9eb" stroke-width="2"><rect x="48" y="581" width="274" height="130" rx="14"/><rect x="343" y="581" width="274" height="130" rx="14"/><rect x="638" y="581" width="274" height="130" rx="14"/></g>
+    <g font-size="25" font-weight="700"><text x="70" y="629">전송 정책</text><text x="365" y="629">개인정보 처리</text><text x="660" y="629">서버 연동</text></g>
+    <g font-size="21" fill="#53637b"><text x="70" y="674">동의 · 한도 · 재시도</text><text x="365" y="674">블러 · 검출 평가</text><text x="660" y="674">HTTP · 상태 · 중복</text></g>
+  </g>
+</svg>

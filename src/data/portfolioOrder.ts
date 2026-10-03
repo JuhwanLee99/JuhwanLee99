@@ -1,9 +1,11 @@
 import { projects } from './projects';
 
-const order = ['aubl', 'blackpin-app', 'blackpin-cs', 'syncgaze', 'snapfig', 'issue-control-team8', 'dip-team5', 'seniorro', 'jetlag-watch'];
+// Lead with operating products, then end-to-end implementation and validation.
+const order = ['aubl', 'blackpin-dms', 'blackpin-app', 'blackpin-cs', 'syncgaze', 'snapfig', 'issue-control-team8', 'dip-team5', 'seniorro', 'jetlag-watch'];
 export const orderedProjects = order.map((slug) => projects.find((project) => project.slug === slug)).filter((project): project is (typeof projects)[number] => Boolean(project));
 export const chapterLabels: Record<string, string> = {
   aubl: '서비스 기획 · 현장 운영',
+  'blackpin-dms': '개인 프로젝트 · 온디바이스 AI',
   'blackpin-app': '업무 분석 · 앱/웹 구축',
   'blackpin-cs': 'AI 업무 적용 · 검증',
   syncgaze: '시선 데이터 · 코칭',

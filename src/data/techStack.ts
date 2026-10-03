@@ -59,7 +59,28 @@ export const techStacks: TechStackItem[] = [
   { id: 'firestore-emulator', name: 'Firestore Emulator', group: 'quality', description: '운영 데이터와 분리한 Firebase 검증 흐름에 사용했습니다.', projects: ['aubl'] },
 ];
 
-const featuredIds = ['react', 'typescript', 'flutter', 'python', 'webgazer', 'firestore', 'docker'];
+const dmsSharedStackIds = ['react', 'typescript', 'vite', 'flutter', 'dart', 'python', 'pytorch', 'opencv', 'rest-api', 'github'];
+for (const stack of techStacks) {
+  if (dmsSharedStackIds.includes(stack.id)) stack.projects.push('blackpin-dms');
+}
+techStacks.push(
+  { id: 'ultralytics', name: 'Ultralytics', group: 'intelligence', description: 'DMS의 YOLO11n 학습·평가와 ONNX 변환에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'roboflow', name: 'Roboflow', group: 'intelligence', description: '운전 행동 감지 데이터 소스를 확보하고 라벨 매핑·통합 과정을 구성했습니다.', projects: ['blackpin-dms'] },
+  { id: 'google-colab', name: 'Google Colab', group: 'intelligence', description: 'GPU에서 커스텀 모델을 학습하고 Drive에 체크포인트·실험 결과를 관리했습니다.', projects: ['blackpin-dms'] },
+  { id: 'kotlin', name: 'Kotlin', group: 'interface', description: 'DMS의 Android 네이티브 감지·기록·전송 흐름을 구현했습니다.', projects: ['blackpin-dms'] },
+  { id: 'jetpack-compose', name: 'Jetpack Compose', group: 'interface', description: '모니터링·설정과 업로드 진행 상태를 Android 화면에 연결했습니다.', projects: ['blackpin-dms'] },
+  { id: 'camerax', name: 'CameraX', group: 'interface', description: '카메라 미리보기, 프레임 분석과 이벤트 영상 녹화를 연결했습니다.', projects: ['blackpin-dms'] },
+  { id: 'flask', name: 'Flask', group: 'data', description: 'DMS 데이터 수집과 관리자·파트너 조회 API를 구성했습니다.', projects: ['blackpin-dms'] },
+  { id: 'room-sqlite', name: 'Room / SQLite', group: 'data', description: '모바일 이벤트·전송 상태와 서버 메타데이터의 저장 구조에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'retrofit-okhttp', name: 'Retrofit / OkHttp', group: 'data', description: 'Android 앱의 HTTP 업로드와 서버 연동에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'yolo-onnx', name: 'YOLO / ONNX Runtime', group: 'intelligence', description: '카메라 기반 운전 행동 감지의 온디바이스 추론에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'face-landmarks', name: 'ML Kit / MediaPipe', group: 'intelligence', description: '운전자 얼굴 랜드마크와 상태 감지 파이프라인에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'workmanager', name: 'WorkManager', group: 'delivery', description: '동의·네트워크 조건에 따른 백그라운드 전송과 진행 알림을 연결했습니다.', projects: ['blackpin-dms'] },
+  { id: 'pytest', name: 'pytest', group: 'quality', description: 'DMS 수집 API·전송 정책·개인정보 처리와 평가 로직의 테스트에 사용했습니다.', projects: ['blackpin-dms'] },
+  { id: 'android-testing', name: 'JUnit / MockK', group: 'quality', description: 'Android 업로드 조건·진행률·상태 전이와 HTTP 연동을 검증했습니다.', projects: ['blackpin-dms'] },
+);
+
+const featuredIds = ['react', 'typescript', 'flutter', 'kotlin', 'python', 'webgazer', 'firestore', 'docker'];
 export const featuredTechStacks = featuredIds
   .map((id) => techStacks.find((item) => item.id === id))
   .filter((item): item is TechStackItem => Boolean(item));

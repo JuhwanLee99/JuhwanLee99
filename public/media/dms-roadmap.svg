@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1060" viewBox="0 0 960 1060" role="img" aria-labelledby="title desc">
+  <title id="title">DMS 구현 범위와 후속 로드맵</title>
+  <desc id="desc">2026년 4월 22일 저장소 기준 구현 범위, 추가 검증 과제, 초기 기획의 하드웨어와 서비스 확장 계획을 구분합니다.</desc>
+  <rect width="960" height="1060" fill="#f0f5fc"/>
+  <g font-family="sans-serif" fill="#14243d">
+    <text x="48" y="55" font-size="18" fill="#2563eb" letter-spacing="2">PERSONAL PROJECT / DMS / DEVELOPMENT ROADMAP</text>
+    <text x="48" y="108" font-size="36" font-weight="700">구현과 검증, 확장 계획</text>
+    <text x="48" y="151" font-size="22" fill="#53637b">구현 근거: 2026.04.22 저장소 / 확장 방향: 초기 기획</text>
+    <rect x="48" y="189" width="864" height="229" rx="16" fill="#173f8a"/>
+    <text x="76" y="230" font-size="18" fill="#dce8ff" letter-spacing="1">01 / IMPLEMENTED</text>
+    <text x="76" y="276" font-size="29" font-weight="700" fill="#fff">확인된 구현 범위</text>
+    <g font-size="23" fill="#dce8ff">
+      <text x="76" y="322">모델 학습·평가 → ONNX → Android 감지·녹화</text>
+      <text x="76" y="361">동의 기반 업로드 · 수집 API · 관리 웹 · 평가 도구</text>
+      <text x="76" y="397" font-size="20">기능 구현과 차량 안전성·실서비스 운영 완료는 구분</text>
+    </g>
+    <path d="M480 427V452M470 442L480 452L490 442" fill="none" stroke="#2563eb" stroke-width="3"/>
+    <rect x="48" y="466" width="864" height="229" rx="16" fill="#fff" stroke="#ccd9eb" stroke-width="2"/>
+    <text x="76" y="507" font-size="18" fill="#2563eb" letter-spacing="1">02 / VALIDATION</text>
+    <text x="76" y="553" font-size="29" font-weight="700">추가 검증·개선 과제</text>
+    <g font-size="23" fill="#53637b">
+      <text x="76" y="599">저조도·가림·개인차 / 오경보·지연·장시간 안정성</text>
+      <text x="76" y="638">전송 실패·복구 · 파트너 인증 강화 · 운영 환경 검증</text>
+      <text x="76" y="674" font-size="20">오프라인 평가 결과를 실제 주행 성능으로 일반화하지 않음</text>
+    </g>
+    <path d="M480 704V729M470 719L480 729L490 719" fill="none" stroke="#788aa4" stroke-width="3" stroke-dasharray="5 4"/>
+    <rect x="48" y="743" width="864" height="229" rx="16" fill="#fff" stroke="#8c9db5" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="76" y="784" font-size="18" fill="#637590" letter-spacing="1">03 / PLANNED</text>
+    <text x="76" y="830" font-size="29" font-weight="700">하드웨어·서비스 확장 검토</text>
+    <g font-size="23" fill="#53637b">
+      <text x="76" y="876">Raspberry Pi · Hailo · IR 카메라 · 차량 전원·통신</text>
+      <text x="76" y="915">클라우드 운영 · CAN/DTG 연동 · 운전자 코칭</text>
+      <text x="76" y="951" font-size="20">구현·도입 완료가 아닌 계획 / 파일럿·매출 실적 주장 제외</text>
+    </g>
+    <text x="48" y="1024" font-size="21" fill="#53637b">개발 범위 로드맵이며 모델 학습 버전의 Phase 번호와 다릅니다.</text>
+  </g>
+</svg>

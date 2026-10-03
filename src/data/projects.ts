@@ -1,4 +1,5 @@
 import type { ProjectData } from '../types/project';
+import { dmsProject } from './dms';
 
 export const PROJECT_CATEGORIES = [
   'all',
@@ -22,6 +23,7 @@ const pending = {
 };
 
 export const projects: ProjectData[] = [
+  dmsProject,
   {
     slug: 'aubl',
     title: 'AUBL',

@@ -1,4 +1,5 @@
 import type { ProjectData, ScreenshotItem } from '../types/project';
+import { dmsPointDetails } from './dms';
 
 const slide = (page: number, title: string): ScreenshotItem => ({
   title,
@@ -22,6 +23,7 @@ const extraImages: Record<string, ScreenshotItem[]> = {
 };
 
 const pointDetails: Record<string, string[]> = {
+  'blackpin-dms': dmsPointDetails,
   aubl: [
     'KBO 경기 기록 이벤트를 점수 입력 모달과 연결해 현장 기록 흐름을 구성했습니다.',
     'IndexedDB 지속 대기열과 검증 어댑터로 입력 중단 이후의 재시도·복구 흐름을 보강했습니다.',
