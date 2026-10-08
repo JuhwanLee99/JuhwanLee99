@@ -1,0 +1,68 @@
+.stack-experience-page { min-width: 0; }
+.stack-experience-page .tech-hero { background: radial-gradient(ellipse at 90% 0%, #dcecf8 0, transparent 55%), #f4f8fc; }
+.stack-experience-page .tech-hero .lede { max-width: 960px; }
+.stack-draft-note { max-width: 880px; margin: 24px 0 0; padding: 14px 18px; border-left: 3px solid #a2b8cb; background: #fff9; color: #536a7d; font-size: 14px; line-height: 1.8; }
+.stack-section-links { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 38px; }
+.stack-core-block { padding-top: 22px; border-top: 1px solid var(--line); }
+.stack-core-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.stack-core-list button { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 18px 22px; border: 1px solid #bfd1df; background: #fff; color: var(--ink); min-width: 160px; text-align: left; }
+.stack-core-list strong { font-size: clamp(20px, 2vw, 27px); letter-spacing: -.04em; }
+.stack-core-list button:hover, .stack-core-list button[aria-pressed=true] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.stack-strengths { padding: 78px 0; }
+.stack-strengths, #all-stack-experience, #stack-selection { scroll-margin-top: 125px; }
+.stack-strength-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.stack-strength-grid > * { min-width: 0; }
+.stack-strength-card { height: 100%; padding: 30px; border-top: 3px solid var(--blue); background: linear-gradient(150deg, #eff5fa, #fff); }
+.stack-strength-card h3 { font-size: clamp(25px, 2.5vw, 34px); letter-spacing: -.05em; margin: 23px 0 14px; }
+.stack-strength-card p { font-size: 17px; line-height: 1.85; color: #46617a; }
+.stack-strength-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 30px; }
+.stack-strength-tags button { border: 1px solid #c5d8e7; background: #fff; color: var(--blue); padding: 9px 12px; font-size: 14px; font-weight: 700; }
+.stack-level { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border: 1px solid #b8cfe0; background: #eaf2f8; color: #244d70; font-size: 13px; font-weight: 800; line-height: 1.5; }
+.stack-level::before { content: ''; width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: currentColor; }
+.stack-level--core { background: #174f7d; border-color: #174f7d; color: #fff; }
+.stack-level--independent { background: #e2eee9; border-color: #b9d2c6; color: #2c614c; }
+.stack-level--introductory { background: #f7f0df; border-color: #ddcfb0; color: #776029; }
+.stack-level--unrated { background: #f1f3f5; border-color: #d4dbe1; color: #62717e; }
+.stack-experience-page .tech-focus { margin-top: 0; }
+.stack-experience-page .stack-focus-scope { margin-top: 18px; }
+.stack-level-guide { margin: 26px 0 30px; padding: 18px 22px; border: 1px solid var(--line); background: #f6f9fc; }
+.stack-level-guide summary { cursor: pointer; font-size: 16px; font-weight: 700; line-height: 1.6; }
+.stack-level-guide dl { display: grid; gap: 14px; margin: 22px 0; }
+.stack-level-guide dl > div { display: grid; grid-template-columns: 145px minmax(0, 1fr); align-items: center; gap: 14px; }
+.stack-level-guide dd { margin: 0; color: #4e6980; font-size: 15px; line-height: 1.7; }
+.stack-level-guide > p { color: #617689; font-size: 14px; line-height: 1.8; }
+.stack-level-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 20px 0 30px; font-size: 14px; }
+.stack-level-toolbar label { font-weight: 700; }
+.stack-level-toolbar select { max-width: 100%; min-height: 44px; padding: 8px 36px 8px 12px; border: 1px solid #c5d8e7; border-radius: 0; background-color: #fff; color: var(--ink); font: inherit; }
+.stack-level-toolbar > span { margin-left: auto; color: var(--muted); }
+.stack-level-toolbar button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); background: #fff; color: var(--blue); font: inherit; }
+.stack-experience-page .tech-section-head { flex-wrap: wrap; }
+.stack-experience-page .tech-section-head h3 { font-size: clamp(28px, 3vw, 43px); margin: 0; letter-spacing: -.055em; }
+.stack-experience-page .tech-card { display: flex; flex-direction: column; min-width: 0; }
+.stack-card-level { margin-bottom: 20px; }
+.stack-experience-page .tech-card-trigger { min-width: 0; grid-template-columns: minmax(0, 1fr) auto; }
+.stack-experience-page .tech-card-trigger strong { overflow-wrap: anywhere; }
+.stack-scope { margin: 22px 0; }
+.stack-scope .meta-label { margin-bottom: 9px; }
+.stack-experience-page .stack-scope p { margin: 0; font-size: 16px; line-height: 1.85; }
+.stack-experience-page .tech-card > .tech-project-links { margin-top: auto; }
+.stack-experience-page .tech-project-links a { font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.stack-experience-page button:focus-visible, .stack-experience-page a:focus-visible, .stack-experience-page summary:focus-visible, .stack-experience-page select:focus-visible { outline: 3px solid #4e9ac9; outline-offset: 4px; }
+@media (max-width: 1000px) { .stack-strength-grid { grid-template-columns: minmax(0, 1fr); } .stack-strength-card { padding: 25px; } }
+@media (max-width: 600px) {
+  .stack-strengths { padding: 52px 0; }
+  .stack-core-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stack-core-list button { min-width: 0; gap: 8px; padding: 15px 12px; }
+  .stack-core-list strong { font-size: 20px; overflow-wrap: anywhere; }
+  .stack-experience-page .tech-filters { flex-wrap: wrap; overflow: visible; }
+  .stack-experience-page .tech-filters button { padding: 10px 12px; }
+  .stack-experience-page .tech-search { min-width: 0; width: 100%; }
+  .stack-experience-page .tech-search input { min-width: 0; width: 100%; }
+  .stack-level-guide { padding: 16px; }
+  .stack-level-guide dl > div { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .stack-level-toolbar > span { margin-left: 0; }
+  .stack-experience-page .tech-card { padding: 22px; }
+  .stack-experience-page .tech-section-head { gap: 10px; }
+  .stack-experience-page .tech-section-head > .kicker { flex-basis: 100%; }
+  .stack-draft-note { padding: 12px 14px; }
+}

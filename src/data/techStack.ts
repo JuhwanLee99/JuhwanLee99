@@ -80,7 +80,7 @@ techStacks.push(
   { id: 'android-testing', name: 'JUnit / MockK', group: 'quality', description: 'Android 업로드 조건·진행률·상태 전이와 HTTP 연동을 검증했습니다.', projects: ['blackpin-dms'] },
 );
 
-const featuredIds = ['react', 'typescript', 'flutter', 'kotlin', 'python', 'webgazer', 'firestore', 'docker'];
+export const featuredIds = ['react', 'typescript', 'flutter', 'dart', 'kotlin', 'python', 'webgazer', 'firestore', 'docker'];
 export const featuredTechStacks = featuredIds
   .map((id) => techStacks.find((item) => item.id === id))
   .filter((item): item is TechStackItem => Boolean(item));
